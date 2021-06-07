@@ -1,7 +1,6 @@
 namePrefix: kustomize-
-
+commonLabels:
+  app: hiro-kustomize-example
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
